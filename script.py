@@ -1,5 +1,4 @@
 import array
-from os import lockf
 import threading
 import pyaudio
 import simpleaudio as sa
@@ -8,8 +7,6 @@ import sys
 import _thread
 import time
 import wave
-
-from threading import Lock
 
 p = pyaudio.PyAudio()
 r = sr.Recognizer()
